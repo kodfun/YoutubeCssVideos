@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div class="kutu">
+  <img src="dog.jpg">
+</div>
+
+<style>
+  .kutu {
+    width: 250px;
+    background-color: pink;
+    position: relative;
+  }
+
+  .kutu>img {
+    width: 100%;
+  }
+
+  .kutu::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f005";
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gold;
+    font-size: 2.5em;
+  }
+</style>
